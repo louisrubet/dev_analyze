@@ -2,5 +2,6 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[]) {
+    printf("hey");
     return 0;
 }
