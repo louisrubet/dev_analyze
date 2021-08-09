@@ -1,5 +1,5 @@
 #!/bin/sh
-SONAR_TOKEN=8d909813cb06edffad8cda3ccc3a236c5e7b2496
+SONAR_TOKEN=
 PATH=$PATH:$PWD/build-wrapper-linux-x86/:$PWD/sonar-scanner-4.4.0.2170-linux/bin/
 
 build-wrapper-linux-x86-64 --out-dir $PWD/bw-output gcc main.c
